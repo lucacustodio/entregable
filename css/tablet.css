@@ -40,15 +40,19 @@
     font-size: 1.3rem;
     text-decoration: none;
     color: var(--azul);
-    transition: 150ms ease-in-out;
+    transition: 150ms all;
 }
 .navbar ul li a:hover {
     font-weight: bold;
     letter-spacing: 0.1rem;
     color: var(--rojo);
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    box-shadow: 6px 0px 20px rgba(0, 0, 0, 0.25);
 }
 
+.title-illustration p {
+    font-size: 1.6rem;
+}
 .started-header-btn {
     width: 130px;
     height: 45px;
@@ -62,9 +66,14 @@
     background-color: var(--rojo);
     color: var(--blanco);
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    transition: 320ms all;
 }
-
-
+.started-header-btn:hover {
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    transform: scale(1.1);
+}
+ /****Main - Second Contenedor - Services***/
 
 .title-services p {
     font-size: 1.6rem;
@@ -72,9 +81,13 @@
 }
 .container-services .services .title {
     font-size: 1.6rem;
-
-
 }
 .services-container .subtitle {
     font-size: 1.5rem;
 }
+.services-container span {
+    padding: 4px 24px;
+    margin-right: 15px;
+
+}
+

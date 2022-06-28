@@ -52,6 +52,7 @@
     margin: 0;
 }
 
+ /****Main - Second Contenedor - Services**/
 
 .container-services {
     padding-top: 20px;
@@ -76,5 +77,25 @@
     padding-top: 10px;
     display: flex;
     flex-direction: column;
-    
+}
+.services-container .title {
+    background-color: transparent;
+}
+
+
+ /****Main - Three Contenedor - Cards***/
+
+.card-title h2 {
+    font-size: 2.5rem;
+}
+.card-container {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card h4 {
+    font-size: 1.8rem;
+}
+.card {
+    width: 300px;
 }

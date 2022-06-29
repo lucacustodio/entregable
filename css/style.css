@@ -1,4 +1,4 @@
-/******CUSTOM PROPERTIES******/
+/************CUSTOM PROPERTIES*************/
 
 :root {
     --rojo: #F3603B; 
@@ -10,13 +10,11 @@
 }
 
 
-
-/******RESET******/
+/****************RESET****************/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 html {
     font-size: 62.5%;
@@ -25,7 +23,7 @@ html {
 }
 
 
-/******HEADER******/
+/****************HEADER****************/
 header {
     position: sticky;
     top: 0;
@@ -33,17 +31,13 @@ header {
     height: 100px;
     background-color: #FAF8F7;  
     box-shadow: 0px 2px 8px rgba(89, 73, 30, 0.16);
-
-       
-
 }
 .container-header {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-   
+    align-items: center;  
 }
 .logo img {
     padding-top: 6px;
@@ -60,8 +54,7 @@ header {
     display: none;
 }
 
-
-/******MAIN******/
+/****************MAIN****************/
 
 main {
     width: 100vw;
@@ -70,7 +63,8 @@ main {
     overflow-x: hidden;
 }
 
-/****Main - Primer Contenedor - Ilustracion***/
+/*******MAIN-SECTION-ONE*******/
+
 .container-illustration {
     width: 90%;
     margin: 0 auto;
@@ -79,7 +73,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid var(--negro)
 }
 .illustration img {
     margin-top: 35px;
@@ -95,14 +88,12 @@ main {
     margin-top: 20px;
     font-size: 3.0rem;
     color: #232C50;
-
 }
 .title-illustration p {
     margin-top: 20px;
     margin-bottom: 10%;
     font-size: 1.4rem;
     line-height: 2.0rem;
-   
 }
 .started-btn {
     margin: 0 auto;
@@ -115,7 +106,7 @@ main {
     align-items: center;
     border-radius: 50px;
     border: none;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     background-color: var(--rojo);
     color: var(--blanco);
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
@@ -123,13 +114,11 @@ main {
 }
 .started-btn:hover {
     cursor: pointer;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     transform: scale(1.1);
-
 }
 
-
-/****Main - Segundo Contenedor - Services***/
+/*******MAIN-SECTION-TWO*******/
 
 .container-services {
     width: 90%;
@@ -139,8 +128,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: solid 1px var(--negro);
-
 }
 .title-services { 
     width: 85%;
@@ -156,8 +143,7 @@ main {
 .title-services p {
     font-size: 1.4rem;
     line-height: 2.0rem;
-    color: var(--negro);
-    
+    color: var(--negro);   
 }
 .services {
     width: 90%;
@@ -171,17 +157,15 @@ main {
     padding: 25px 0px;
     margin: 0 auto;
 }
-
 .services-container .title {
     max-width: 500px;
-    font-size: 1.32rem;
+    font-size: 1.4rem;
     font-weight: bold;
     background-color: rgba(245, 109, 75, 0.18);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     color: var(--negro);
 }
-
 .services-container .subtitle {
     max-width: 460px;
     margin: 0 auto;
@@ -199,8 +183,7 @@ main {
     color: var(--blanco);
 }
 
- /****Main - Three Contenedor - Cards***/
-
+/*******MAIN-SECTION-THREE*******/
 .card-main {
     width: 80%;
     margin: 0 auto;
@@ -209,28 +192,34 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    outline: none;
 }
 .card-title h2 {
     font-size: 2.2rem;
     color: var(--azul);
-
 }
 .card-container {
     margin-top: 5%;
+    margin-bottom: 3%;
     display: flex;
     flex-direction: column;  
+    
 }
 .card {
-    max-width: 460px;
+    max-width: 450px;
     margin-top: 20px;
     padding: 20px 0px; 
     text-align: center;
+    box-shadow: 0px 3px 8px rgba(89, 73, 30, 0.16);
+    background-color: #FAF8F7;
 }
 .card img {
     width: 90px;
     margin-bottom: 10px;
+    
 }
-.card h4 {
+.card h3 {
     font-size: 1.5rem;
     padding: 6px;
 }
@@ -240,4 +229,132 @@ main {
 }
 .started-btn.second {
     margin-top: 20px;
+}
+
+/**********FOOTER***********/
+.footer {
+    width: 100vw;
+    height: auto;
+}
+/****FOOTER-SECTION-ONE****/
+
+.footer-section-one {
+    width: 100%;
+    padding: 45px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3603B;
+    box-shadow: 0px 2px 10px rgba(89, 73, 30, 0.16);
+
+}
+.footer-section-one .title h3 {
+    max-width: 500px;
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding: 25px 35px;
+    text-align: center;
+    color: var(--blanco);
+}
+.started-btn-footer {
+    margin: 0 auto;
+    width: 140px;
+    height: 45px;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: var(--blanco);
+    color: var(--rojo);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    transition: 320ms all;
+}
+.started-btn-footer:hover {
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    transform: scale(1.1);
+}
+.footer-section-two {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E26;
+}
+
+.form {
+    padding: 45px 5px;
+    display: flex;
+    justify-content: center;
+}
+.input input {
+    width: 240px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+.go input {
+    width: 90px;
+    margin-left: 5px;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    color: var(--blanco);
+    background-color: var(--rojo);
+}
+.list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.list-one li {
+    list-style: none;
+    padding: 6px;
+}
+.list-one li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--gris)
+}
+.list-two li {
+    list-style: none;
+    padding: 8px;
+}
+.list-two li a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--gris)
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.social-redes {
+    margin-top: 20px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-redes img {
+    width: 32px;
+}
+.logo-footer {
+    margin-top: 35px;
+    padding: 20px;
+    text-align: center;
+}
+.copy{
+    padding: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #1E1E26;
+    color: var(--gris);
 }
